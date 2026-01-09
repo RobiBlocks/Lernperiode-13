@@ -36,7 +36,7 @@ Ich habe mich dazu entschieden, eine kleine Lifecounter App für SWU zu erstelle
 - [ ] Ich bereite meine IDE auf Flutter vor und erstelle mein erstes Flutter Projekt.
 - [ ] Ich zeige zwei grosse Zahlen an und erstelle vier Buttons, um deren Wert zu verändern.
 
-Dart Playlist: [https://www.youtube.com/watch?v=sYG8aTg2a9s&list=PL4cUxeGkcC9iVGY3ppchN9kIauln8IiEh&index=3](https://www.youtube.com/playlist?list=PL4cUxeGkcC9iVGY3ppchN9kIauln8IiEh)
+**Dart Playlist:** [https://www.youtube.com/watch?v=sYG8aTg2a9s&list=PL4cUxeGkcC9iVGY3ppchN9kIauln8IiEh&index=3](https://www.youtube.com/playlist?list=PL4cUxeGkcC9iVGY3ppchN9kIauln8IiEh)
 
 ✍️ Heute habe ich... (0 Wörter)
 
