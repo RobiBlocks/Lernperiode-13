@@ -31,8 +31,8 @@ Ich habe mich dazu entschieden, eine kleine Lifecounter App für SWU zu erstelle
 
 ### 16.01.2026
 
-- [ ] Ich schaue mir Typen, Funktionen, Listen und Kontrollfluss in Dart an.
-- [ ] Ich schaue mir Klassen, Method Overriding und Generics in Dart an.
+- [x] Ich schaue mir Typen, Funktionen, Listen und Kontrollfluss in Dart an.
+- [x] Ich schaue mir Klassen, Method Overriding und Generics in Dart an.
 - [ ] Ich bereite meine IDE auf Flutter vor und erstelle mein erstes Flutter Projekt.
 - [ ] Ich zeige zwei grosse Zahlen an und erstelle vier Buttons, um deren Wert zu verändern.
 
