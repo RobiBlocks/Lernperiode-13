@@ -42,18 +42,18 @@ Ich habe mich dazu entschieden, eine kleine Lifecounter App für SWU zu erstelle
 
 ### 23.01.2026
 
-- [ ] 1
-- [ ] 2
-- [ ] 3
-- [ ] 4
+- [ ] I create the basic layout with the healthpoint and the most important buttons.
+- [ ] I implement to functions to decrease and increase the healthpoints.
+- [ ] I use the gesture detector, so that the buttons can execute the functions.
+- [ ] I implement a window, which pops up when one player has lost more then 30 healthpoints, so that the players can start a new game.
 
-**Flutter Tutorial:** 
+**Flutter Tutorial:** [https://youtu.be/HQ_ytw58tC4?si=81aPjEMtn9RSHuUr&t=1778](https://youtu.be/HQ_ytw58tC4?si=81aPjEMtn9RSHuUr&t=1778)
 
 ✍️ Heute habe ich...
 
 ### 30.01.2026
 
-- [ ] 5
+- [ ] I create a window, which pops up when a player starts the app, where each player has to choose how many healthpoints they have at the start of a game, so that the app knows when the game ends
 
 ✍️ Heute habe ich...
 
