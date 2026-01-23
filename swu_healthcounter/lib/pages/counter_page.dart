@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:swu_healthcounter/util/dialog_box.dart';
 
 class CounterWidget extends StatefulWidget {
   const CounterWidget({super.key});
@@ -11,12 +12,30 @@ class _CounterWidgetState extends State<CounterWidget> {
   int _damagePlayer1 = 0;
   int _damagePlayer2 = 0;
 
+  void showWinner(String message) {
+    showDialog(
+      // barrierDismissible: false,
+      context: context,
+      builder: (context) {
+        return DialogBox(message: message, nextGame: nextGame);
+      },
+    );
+  }
+
+  void nextGame() {}
+
   void incrementCounter(int player, int value) {
     setState(() {
       if (player == 1) {
         _damagePlayer1 += value;
-      } else {
+        if (_damagePlayer1 >= 30) {
+          showWinner("Spieler 2 hat gewonnen!");
+        }
+      } else if (player == 2) {
         _damagePlayer2 += value;
+        if (_damagePlayer2 >= 30) {
+          showWinner("Spieler 1 hat gewonnen!");
+        }
       }
     });
   }
@@ -67,8 +86,8 @@ class _CounterWidgetState extends State<CounterWidget> {
                     ),
                   ),
                   Container(
-                    height: 100,
-                    width: 100,
+                    height: 150,
+                    width: 150,
                     decoration: BoxDecoration(
                       color: Colors.black,
                       borderRadius: BorderRadius.circular(14),
@@ -81,7 +100,7 @@ class _CounterWidgetState extends State<CounterWidget> {
                           _damagePlayer2.toString(),
                           style: TextStyle(
                             color: Colors.white,
-                            fontSize: 32,
+                            fontSize: 36,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
@@ -145,8 +164,8 @@ class _CounterWidgetState extends State<CounterWidget> {
                   ),
                   GestureDetector(
                     child: Container(
-                      height: 100,
-                      width: 100,
+                      height: 150,
+                      width: 150,
                       decoration: BoxDecoration(
                         color: Colors.black,
                         borderRadius: BorderRadius.circular(14),
@@ -156,7 +175,7 @@ class _CounterWidgetState extends State<CounterWidget> {
                           _damagePlayer1.toString(),
                           style: TextStyle(
                             color: Colors.white,
-                            fontSize: 28,
+                            fontSize: 36,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
