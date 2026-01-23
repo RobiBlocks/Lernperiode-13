@@ -45,13 +45,13 @@ Ich habe mich dazu entschieden, eine kleine Lifecounter App für SWU zu erstelle
 ### 23.01.2026
 
 - [x] I create the basic layout with the healthpoint and the most important buttons.
-- [ ] I implement to functions to decrease and increase the healthpoints.
-- [ ] I use the gesture detector, so that the buttons can execute the functions.
-- [ ] I implement a window, which pops up when one player has lost more then 30 healthpoints, so that the players can start a new game.
+- [x] I implement to functions to decrease and increase the healthpoints.
+- [x] I use the gesture detector, so that the buttons can execute the functions.
+- [x] I implement a window, which pops up when one player has lost more then 30 healthpoints, so that the players can start a new game.
 
 **Flutter Tutorial:** [https://youtu.be/HQ_ytw58tC4?si=81aPjEMtn9RSHuUr&t=1778](https://youtu.be/HQ_ytw58tC4?si=81aPjEMtn9RSHuUr&t=1778)
 
-✍️ Before todays lessons i did the first AP, where I created the basic layout for my app. Now there are two parts, one for each player. Each part has a number with the remaining healthpoints and two buttons.
+✍️ Before todays lessons i did the first AP, where I created the basic layout for my app. Now there are two parts, one for each player. Each part has a number with the remaining healthpoints and two buttons. Today I made the containers pressable with the gesture detector. For that I had to learn the difference between stateless and stateful widgets. Afterwards I implemented the decrease and increase buttons, so that the number between the buttons is changing. In the end I created a dialog box, which pops up when one player has morer then 30 damage on his counter. (100 Wörter)
 
 ### 30.01.2026
 
