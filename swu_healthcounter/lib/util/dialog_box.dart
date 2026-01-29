@@ -28,7 +28,10 @@ class DialogBox extends StatelessWidget {
               ),
               SizedBox(height: 15),
               GestureDetector(
-                onTap: () => nextGame(),
+                onTap: () {
+                  Navigator.of(context).pop();
+                  nextGame();
+                },
                 child: Container(
                   decoration: BoxDecoration(
                     color: Colors.orange,

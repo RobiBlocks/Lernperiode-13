@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:swu_healthcounter/util/chooseBase_dialog.dart';
 import 'package:swu_healthcounter/util/dialog_box.dart';
 
 class CounterWidget extends StatefulWidget {
@@ -11,29 +12,57 @@ class CounterWidget extends StatefulWidget {
 class _CounterWidgetState extends State<CounterWidget> {
   int _damagePlayer1 = 0;
   int _damagePlayer2 = 0;
+  int? _maxHealthPlayer1;
+  int? _maxHealthPlayer2;
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      prepareGame();
+    });
+  }
 
   void showWinner(String message) {
     showDialog(
-      // barrierDismissible: false,
+      barrierDismissible: false,
       context: context,
       builder: (context) {
-        return DialogBox(message: message, nextGame: nextGame);
+        return DialogBox(message: message, nextGame: prepareGame);
       },
     );
   }
 
-  void nextGame() {}
+  void prepareGame() async {
+    setState(() {
+      _damagePlayer1 = 0;
+      _damagePlayer2 = 0;
+    });
+
+    final result = await showDialog<Map<String, int>>(
+      barrierDismissible: false,
+      context: context,
+      builder: (context) {
+        return ChoosebaseDialog();
+      },
+    );
+
+    setState(() {
+      _maxHealthPlayer1 = result?['p1'] ?? 30;
+      _maxHealthPlayer2 = result?['p2'] ?? 30;
+    });
+  }
 
   void incrementCounter(int player, int value) {
     setState(() {
       if (player == 1) {
         _damagePlayer1 += value;
-        if (_damagePlayer1 >= 30) {
+        if (_damagePlayer1 >= (_maxHealthPlayer1 ?? 30)) {
           showWinner("Spieler 2 hat gewonnen!");
         }
       } else if (player == 2) {
         _damagePlayer2 += value;
-        if (_damagePlayer2 >= 30) {
+        if (_damagePlayer2 >= (_maxHealthPlayer2 ?? 30)) {
           showWinner("Spieler 1 hat gewonnen!");
         }
       }
