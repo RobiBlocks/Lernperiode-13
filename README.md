@@ -55,7 +55,7 @@ Ich habe mich dazu entschieden, eine kleine Lifecounter App für SWU zu erstelle
 
 ### 30.01.2026
 
-- [ ] I create a window, which pops up when a player starts the app, where each player has to choose how many healthpoints they have at the start of a game, so that the app knows when the game ends
+- [ ] I create a function to start a new game, where each player has 30 healthpoints, so that the players can start a new game.
 
 ✍️ Heute habe ich...
 
