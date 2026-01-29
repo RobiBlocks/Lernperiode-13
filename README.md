@@ -40,7 +40,7 @@ Ich habe mich dazu entschieden, eine kleine Lifecounter App für SWU zu erstelle
 
 **Dart Playlist:** [https://www.youtube.com/watch?v=sYG8aTg2a9s&list=PL4cUxeGkcC9iVGY3ppchN9kIauln8IiEh&index=3](https://www.youtube.com/playlist?list=PL4cUxeGkcC9iVGY3ppchN9kIauln8IiEh)
 
-✍️ Heute habe ich angeschaut, wie man Funktionen, Listen und Klassen erstellt und wie man den Ablauf des Programmes kontrolliert. Ausserdem habe ich VSC für Flutter vorbereitet und mein erstes Projekt erstellt. Anschliessend habe ich mit dem offiziellen Flutter Tutorial begonnen, allerdings war es "Kopiere das und dann funktioniert das", wobei ich nicht viel verstanden habe, weshalb ich jetzt ein neues Tutorial suchen muss. (63 Wörter)
+✍️ Heute habe ich angeschaut, wie man Funktionen, Listen und Klassen erstellt und wie man den Ablauf des Programmes kontrolliert. Ausserdem habe ich VSC für Flutter vorbereitet und mein erstes Projekt erstellt. Anschliessend habe ich mit dem offiziellen Flutter Tutorial begonnen, allerdings war es "Kopiere das und dann funktioniert das", wobei ich nicht viel verstanden habe, weshalb ich jetzt ein neues Tutorial suchen muss. (63 Words)
 
 ### 23.01.2026
 
@@ -51,12 +51,12 @@ Ich habe mich dazu entschieden, eine kleine Lifecounter App für SWU zu erstelle
 
 **Flutter Tutorial:** [https://youtu.be/HQ_ytw58tC4?si=81aPjEMtn9RSHuUr&t=1778](https://youtu.be/HQ_ytw58tC4?si=81aPjEMtn9RSHuUr&t=1778)
 
-✍️ Before todays lessons i did the first AP, where I created the basic layout for my app. Now there are two parts, one for each player. Each part has a number with the remaining healthpoints and two buttons. Today I made the containers pressable with the gesture detector. For that I had to learn the difference between stateless and stateful widgets. Afterwards I implemented the decrease and increase buttons, so that the number between the buttons is changing. In the end I created a dialog box, which pops up when one player has morer then 30 damage on his counter. (100 Wörter)
+✍️ Before todays lessons i did the first AP, where I created the basic layout for my app. Now there are two parts, one for each player. Each part has a number with the remaining healthpoints and two buttons. Today I made the containers pressable with the gesture detector. For that I had to learn the difference between stateless and stateful widgets. Afterwards I implemented the decrease and increase buttons, so that the number between the buttons is changing. In the end I created a dialog box, which pops up when one player has morer then 30 damage on his counter. (100 Words)
 
 ### 30.01.2026
 
-- [ ] I create a function to start a new game, where each player has 30 healthpoints, so that the players can start a new game.
+- [x] I create a window, which pops up when a player starts the app, where each player has to choose how many healthpoints they have at the start of a game, so that the app knows when the game ends.
 
-✍️ Heute habe ich...
+✍️ Today I added a window, where each player can choose their Base (healthpoints) and can start a new game by pressing a button. The game also ends, when the healthpoints of your base are used up. (36 Words)
 
 ## Reflexion
