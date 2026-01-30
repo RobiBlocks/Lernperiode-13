@@ -151,4 +151,4 @@ The app should look similar to the following *.gif* with less style (which we di
 
 When you get the following error message, you need to ensure that you don't return the Scaffold directly. You need to return a MaterialApp widget with an Scaffold as a child instead.
 
-<img src="file:///C:/Users/robin/AppData/Roaming/marktext/images/2026-01-30-17-10-50-image.png" title="" alt="" width="363">
+<img src="https://github.com/RobiBlocks/Lernperiode-13/blob/main/docs/error.png" width="40%">
