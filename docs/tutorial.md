@@ -145,10 +145,10 @@ flutter run -d chrome
 
 The app should look similar to the following *.gif* with less style (which we didn't look at)
 
-<img title="" src="https://github.com/RobiBlocks/Lernperiode-13/blob/main/docs/tutorial.md" alt="lifecounter.gif" width="40%">
+<img src="./lifecounter.gif" alt="lifecounter" width="40%">
 
 ## Error
 
 When you get the following error message, you need to ensure that you don't return the Scaffold directly. You need to return a MaterialApp widget with an Scaffold as a child instead.
 
-<img src="https://github.com/RobiBlocks/Lernperiode-13/blob/main/docs/error.png" width="40%">
+<img src="./error.png" alt="error screenshot" width="40%">
