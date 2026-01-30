@@ -145,7 +145,7 @@ flutter run -d chrome
 
 The app should look similar to the following *.gif* with less style (which we didn't look at)
 
-<img title="" src="file:///C:/GitHub%20Repos/Lernperiode-13/docs/lifecounter.gif" alt="lifecounter.gif" width="275">
+<img title="" src="https://github.com/RobiBlocks/Lernperiode-13/blob/main/docs/tutorial.md" alt="lifecounter.gif" width="40%">
 
 ## Error
 
